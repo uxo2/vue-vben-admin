@@ -25,6 +25,14 @@ module.exports = defineConfig({
     'plugin:jest/recommended'
   ],
   rules: {
+    'vue/v-on-event-hyphenation': [
+      'error',
+      'never',
+      {
+        autofix: false,
+        ignore: []
+      }
+    ],
     'vue/script-setup-uses-vars': 'error',
     '@typescript-eslint/ban-ts-ignore': 'off',
     '@typescript-eslint/explicit-function-return-type': 'off',
