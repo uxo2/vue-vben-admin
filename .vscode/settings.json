@@ -3,6 +3,10 @@
   "typescript.enablePromptUseWorkspaceTsdk": true,
   "volar.tsPlugin": true,
   "volar.tsPluginStatus": false,
+  "css.validate": false,
+  "editor.quickSuggestions": {
+    "strings": true
+  },
   //===========================================
   //============= Editor ======================
   //===========================================
