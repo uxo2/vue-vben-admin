@@ -37,8 +37,8 @@
       :visible="visibleRef"
       :modalFooterHeight="footer !== undefined && !footer ? 0 : undefined"
       v-bind="omit(getProps.wrapperProps, 'visible', 'height', 'modalFooterHeight')"
-      @ext-height="handleExtHeight"
-      @height-change="handleHeightChange"
+      @extHeight="handleExtHeight"
+      @heightChange="handleHeightChange"
     >
       <slot></slot>
     </ModalWrapper>

@@ -4,7 +4,7 @@
     <SizeSetting v-if="getSetting.size" :getPopupContainer="getTableContainer" />
     <ColumnSetting
       v-if="getSetting.setting"
-      @columns-change="handleColumnChange"
+      @columnsChange="handleColumnChange"
       :getPopupContainer="getTableContainer"
     />
     <FullScreenSetting v-if="getSetting.fullScreen" :getPopupContainer="getTableContainer" />

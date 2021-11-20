@@ -2,8 +2,8 @@
   <div class="p-4">
     <BasicTable
       @register="registerTable"
-      @edit-end="handleEditEnd"
-      @edit-cancel="handleEditCancel"
+      @editEnd="handleEditEnd"
+      @editCancel="handleEditCancel"
       :beforeEditSubmit="beforeEditSubmit"
     />
   </div>

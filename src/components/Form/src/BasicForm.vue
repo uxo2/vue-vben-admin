@@ -24,7 +24,7 @@
         </FormItem>
       </template>
 
-      <FormAction v-bind="getFormActionBindProps" @toggle-advanced="handleToggleAdvanced">
+      <FormAction v-bind="getFormActionBindProps" @toggleAdvanced="handleToggleAdvanced">
         <template
           #[item]="data"
           v-for="item in ['resetBefore', 'submitBefore', 'advanceBefore', 'advanceAfter']"
