@@ -7,7 +7,7 @@
       :tableAction="tableAction"
       @register="registerForm"
       @submit="handleSearchInfoChange"
-      @advanced-change="redoHeight"
+      @advancedChange="redoHeight"
     >
       <template #[replaceFormSlotKey(item)]="data" v-for="item in getFormSlotKeys">
         <slot :name="item" v-bind="data || {}"></slot>

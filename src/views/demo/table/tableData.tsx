@@ -14,8 +14,8 @@ export function getBasicColumns(): BasicColumn[] {
       dataIndex: 'name',
       width: 150,
       filters: [
-        { text: 'Male', value: 'male' },
-        { text: 'Female', value: 'female' }
+        { text: 'Male', value: 'male', children: [] },
+        { text: 'Female', value: 'female', children: [] }
       ]
     },
     {
