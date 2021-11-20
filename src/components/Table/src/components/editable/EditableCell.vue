@@ -23,8 +23,8 @@
           :class="getWrapperClass"
           ref="elRef"
           @change="handleChange"
-          @options-change="handleOptionsChange"
-          @press-enter="handleEnter"
+          @optionsChange="handleOptionsChange"
+          @pressEnter="handleEnter"
         />
         <div :class="`${prefixCls}__action`" v-if="!getRowEditable">
           <CheckOutlined :class="[`${prefixCls}__icon`, 'mx-2']" @click="handleSubmitClick" />

@@ -1,6 +1,6 @@
 <template>
   <div class="p-4">
-    <BasicTable @register="registerTable" @edit-change="onEditChange">
+    <BasicTable @register="registerTable" @editChange="onEditChange">
       <template #action="{ record, column }">
         <TableAction :actions="createActions(record, column)" />
       </template>

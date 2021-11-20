@@ -31,7 +31,7 @@
     <UploadPreviewModal
       :value="fileList"
       @register="registerPreviewModal"
-      @list-change="handlePreviewChange"
+      @listChange="handlePreviewChange"
       @delete="handlePreviewDelete"
     />
   </div>

@@ -3,7 +3,7 @@
     v-bind="$attrs"
     @register="register"
     title="Modal Title"
-    @visible-change="handleVisibleChange"
+    @visibleChange="handleVisibleChange"
   >
     <div class="pt-3px pr-3px">
       <BasicForm @register="registerForm" :model="model" />

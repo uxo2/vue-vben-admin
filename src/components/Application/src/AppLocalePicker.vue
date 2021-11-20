@@ -4,7 +4,7 @@
     :trigger="['click']"
     :dropMenuList="localeList"
     :selectedKeys="selectedKeys"
-    @menu-event="handleMenuEvent"
+    @menuEvent="handleMenuEvent"
     overlayClassName="app-locale-picker-overlay"
   >
     <span class="cursor-pointer flex items-center">
