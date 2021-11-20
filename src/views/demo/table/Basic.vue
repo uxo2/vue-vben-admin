@@ -9,9 +9,9 @@
       :loading="loading"
       :striped="striped"
       :bordered="border"
-      showTableSetting
       :pagination="pagination"
-      @columns-change="handleColumnChange"
+      showTableSetting
+      @columnsChange="handleColumnChange"
     >
       <template #toolbar>
         <a-button type="primary" @click="toggleCanResize">

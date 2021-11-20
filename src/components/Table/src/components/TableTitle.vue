@@ -17,6 +17,7 @@
         type: [Function, String] as PropType<string | ((data: Recordable) => string)>
       },
       getSelectRows: {
+        required: false,
         type: Function as PropType<() => Recordable[]>
       },
       helpMessage: {

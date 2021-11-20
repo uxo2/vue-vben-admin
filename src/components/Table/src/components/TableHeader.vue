@@ -6,9 +6,9 @@
     <div class="flex items-center">
       <slot name="tableTitle" v-if="$slots.tableTitle"></slot>
       <TableTitle
+        v-if="!$slots.tableTitle && title"
         :helpMessage="titleHelpMessage"
         :title="title"
-        v-if="!$slots.tableTitle && title"
       />
       <div :class="`${prefixCls}__toolbar`">
         <slot name="toolbar"></slot>
@@ -16,7 +16,7 @@
         <TableSetting
           :setting="tableSetting"
           v-if="showTableSetting"
-          @columns-change="handleColumnChange"
+          @columnsChange="handleColumnChange"
         />
       </div>
     </div>
